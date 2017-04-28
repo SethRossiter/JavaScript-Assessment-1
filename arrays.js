@@ -1,7 +1,7 @@
 //1. What is the lenth of the following contacts array?
 
 var contacts = [];
-
+zero
 
 //2. Add the following people to the contacts array.
 
@@ -35,7 +35,15 @@ var stefan = {
 	email: 'stefan.nuxoll@gmail.com',
 	title: 'mentor'
 };
-
+contacts.push(jake, matt, chris, tony, andrew, stefan)
 
 //3. Woops after adding all of those people to the same contacts list you realized you need a list just the mentors. Create a new variable named mentors populate it using contacts array. 
 
+function oops(){
+	var mentors = ''
+	for(var i = 0; i < contacts.length; i++){
+		if(contacts[i].title === 'mentor'){
+			mentor.push(contacts[i])
+		}
+	}
+}
